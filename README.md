@@ -32,12 +32,4 @@ byte[] arr2 = Bytes.toByte("abcdef");
 ```
 <br>
 
-## To Start Using Maven
-
-```java
-<dependency>
-    <groupId>urlvnbrg</groupId>
-    <artifactId>bytes</artifactId>
-    <version>1.0.0</version>
-</dependency>
-```
+#### EOF :)
