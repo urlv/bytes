@@ -3,7 +3,7 @@ java bytes utils
 
 ## About
 bytes library implements all of string functions for byte arrays<br>
-Useful for APIs that work with byte arrays - Saves you from having to convert the bytes to a string
+Useful for APIs that work with byte arrays (like IO) - Saves you from having to convert the bytes to a string
 
 ### Examples
 concatenate arrays - like ```"abc".concat("def")```
@@ -20,16 +20,38 @@ byte[] sub = Bytes.subarray(new byte[]{10,20,30,40,50}, 2); // sub = [30,40,50]
 <br>
 
 And much more, such as `split` `replaceFirst` `replaceAll` `copy` `indexOf` `lastIndexOf` `equal` `startWith` `endWith` ...
-<br>
-<br>
+
 <br>
 <br>
 To know the bytes behind a string, just use
+
 ```java
 byte[] arr = "abcdef".getBytes();
 //or even
 byte[] arr2 = Bytes.toByte("abcdef");
 ```
+
 <br>
+
+### Using Maven
+Set up this repository in your `pom.xml`
+```java
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+```
+And add this dependency
+```java
+<dependencies>
+  <dependency>
+    <groupId>com.github.urlv</groupId>
+    <artifactId>bytes</artifactId>
+    <version>2.0.0</version>
+  </dependency>
+</dependencies>
+```
 
 #### EOF :)
