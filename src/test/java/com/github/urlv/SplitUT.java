@@ -1,9 +1,9 @@
-package core;
+package com.github.urlv;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class SplitUT {
+class SplitUT {
     @Test
     void test(){
         byte[] a = new byte[]{1,2,3,4,5,2,3};

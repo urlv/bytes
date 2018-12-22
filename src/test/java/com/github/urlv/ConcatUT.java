@@ -1,9 +1,9 @@
-package core;
+package com.github.urlv;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ConcatUT {
+class ConcatUT {
     @Test
     void concatBothEmpty() {
         byte[] result = Bytes.concat(new byte[]{}, new byte[]{});

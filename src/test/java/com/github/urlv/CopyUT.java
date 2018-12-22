@@ -1,9 +1,9 @@
-package core;
+package com.github.urlv;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class CopyUT {
+class CopyUT {
     @Test
     void copy() {
         byte[] array = new byte[]{1,2,3,4};

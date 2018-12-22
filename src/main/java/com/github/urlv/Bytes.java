@@ -1,4 +1,4 @@
-package core;
+package com.github.urlv;
 
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
